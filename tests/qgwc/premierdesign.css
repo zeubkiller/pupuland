@@ -1,0 +1,213 @@
+body
+{
+   width: 760px;
+   margin: auto; /* Pour centrer notre page */
+   margin-top: 20px; /* Pour éviter de coller avec le haut de la fenêtre du navigateur. Essayez d'enlever pour voir ! */
+   margin-bottom: 20px;    /* Idem pour le bas du navigateur */
+   background-image:url("left_img_bkg.jpeg"); /* Une petite image de fond pour éviter d'avoir un vieux fond blanc :p */
+   
+}
+
+#en_tete
+{
+   width: 468px;
+   height: 100px;
+   background-image: url("qgwc_banniere.gif");
+   background-repeat: no-repeat;
+   margin: auto;
+}
+
+#menu
+{
+   float: left; /* Le menu flottera à gauche */
+   width: 140px; /* Très important : donner une taille au menu */
+}
+
+.element_menu
+{
+   background-color: #999aaf;
+   background-image: url("degradegris.jpeg");
+   background-repeat: repeat-x;
+   
+   border: 2px solid black;
+   
+   margin-bottom: 20px; /* Pour éviter que les éléments du menu ne soient trop collés */
+   text-align: justify;
+}
+
+/* Quelques effets sur les menus */
+
+
+.element_menu h3 /* Tous les titres de menus */
+{   
+   color: #004c00;
+   font-family: Arial, "Arial Black", "Times New Roman", Times, serif;
+   text-align: center;
+}
+
+.element_menu ul /* Toutes les listes à puces se trouvant dans un menu */
+{
+   list-style-image: url("puce.png"); /* On change l'apparence des puces */
+   padding: 0px; /* Tous les côtés ont une marge intérieure de 0 pixels */
+   padding-left: 50px; /* ... mais on modifie ensuite la marge de gauche, donc celle-là fera finalement 20 pixels */
+   margin: 0px; /* Idem pour margin, ça nous évite d'avoir à en écrire 4 (margin-left, margin-right...) */
+   margin-bottom: 15px; /* Même chose que tout à l'heure, on modifie ensuite juste margin-bottom, mais tous les autres sont à 0px */
+}
+
+.element_menu a /* Tous les liens se trouvant dans un menu */
+{
+   color: #006000;
+}
+
+.element_menu a:hover /* Quand on pointe sur un lien du menu */
+{
+   background-color: #7d7d96;
+   color: black;
+}
+
+#corps
+{
+   margin-left: 140px; /* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+   margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
+   padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+   
+   color: #B3B3B3;
+   background-color: #009100; /* Une couleur de fond pour le corps */
+   background-image: url("motif.png");
+   background-repeat: repeat-x; /* Une petite image de fond qui se répètera horizontalement en haut */
+   
+   border: 2px solid black; /* Une bordure pour bien marquer les limites du corps et pour faire joli */
+}
+#corps h1 /* Tous les titres h1 du corps */
+{
+   color: #B3B3B3;
+   font-size: 40px;
+   text-align: center;
+   font-family: Arial, "Arial Black", "Times New Roman", Times, serif;
+}
+
+#corps h2 /* Tous les titres h2 du corps */
+{
+   height: 30px;
+   font-size: 30px;
+   background-image: url("titre.png"); /* Une petite image de fond sur les titres h2 */
+   background-repeat: no-repeat; /* L'image ne se répètera pas, elle sera à gauche du titre */
+   
+   padding-left: 30px;
+   padding-top: 30px;
+   color: #B3B3B3;
+   text-align: left;
+}
+
+#pied_de_page
+{
+   padding: 5px;
+
+   text-align: center;
+
+   color: #B3B3B3;
+   background-color: #626262;
+   background-image: url("motif.png");
+   background-repeat: repeat-x;
+   
+   border: 2px solid black;
+}
+.photodevideoimg
+{
+border: none;
+}
+
+.photodevideoblock
+{
+width: 130px;
+height: 130px;
+margin: auto;
+}
+
+.videovideoblock
+{
+width: 352px;
+height: 288px;
+margin: auto;
+margin-bottom: 100px;
+}
+
+.titrevideos
+{
+text-decoration: underline;
+color: #B3B3B3;
+}
+
+.photolienphoto
+{
+width: 352px;
+height: 288px;
+margin: auto;
+margin-bottom: 100px;
+}
+
+a img /* Toutes les images contenues dans un lien */
+{
+   border: none; /* Pas de bordure */
+}
+
+.liens
+{
+font-weight: bold;
+font-style: italic;
+text-decoration: underline;
+color: black;
+}
+
+.photophoto
+{
+width: 600px;
+margin-left: 15px;
+}
+
+.blocphoto
+{
+width: 600px;
+height: 384px;
+position : relativ;
+bottom: 400px;
+margin-left: 52px;
+}
+#corps h3 /* Tous les titres h3 du corps */
+{
+   color: #B3B3B3;
+   font-family: Arial, "Arial Black", "Times New Roman", Times, serif;
+}
+.imageflottante
+{
+   float: left;
+}
+.dessous
+{
+   clear: both;
+}
+
+#corps a
+{
+font-weight: bold;
+font-style: italic;
+text-decoration: underline;
+color: black;
+}
+ #menu a
+ {
+font-weight: bold;
+text-decoration: underline;
+}
+
+.recit
+{
+text-align: justify;
+}
+
+#dub
+{
+width: 352px;
+height: 50px;
+margin: auto;
+}

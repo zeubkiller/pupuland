@@ -1,0 +1,6 @@
+DOUBIDOU STACHSTACHOUCACAMOULOX
+
+<?php
+phpinfo();
+?>
+
